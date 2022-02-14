@@ -18,7 +18,7 @@ async def on_plug_in_callback_query_handler(event):
             ids = [userid]
             if event.query.user_id in ids:
                 reply_pop_up_alert = (
-                    "You are not allowed to see this message, better luck next time!"
+                    "Ma chuda bsdk lawde"
                 )
             else:
                 encrypted_tcxt = message["text"]
