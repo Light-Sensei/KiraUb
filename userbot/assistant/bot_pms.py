@@ -106,7 +106,7 @@ async def bot_start(event):
             start_msg = f"Hey! 👤{mention},\
                         \nI am {my_mention}'s assistant bot.\
                         \nYou can contact to my master from here.\
-                        \n\nPowered by [Catuserbot](https://t.me/catuserbot)"
+                        \n\nPowered by [Kirauserbot](https://t.me/KiraUbSupport)"
         buttons = [
             (
                 Button.url("Repo", "https://github.com/TgCatUB/catuserbot"),
@@ -180,7 +180,7 @@ async def bot_pms(event):  # sourcery no-metrics
                         user_id, event.text, reply_to=reply_msg, link_preview=False
                     )
             except UserIsBlockedError:
-                return await event.reply("𝗧𝗵𝗶𝘀 𝗯𝗼𝘁 𝘄𝗮𝘀 𝗯𝗹𝗼𝗰𝗸𝗲𝗱 𝗯𝘆 𝘁𝗵𝗲 𝘂𝘀𝗲𝗿. ❌")
+                return await event.reply("Madaechod block krke rakha h. ❌")
             except Exception as e:
                 return await event.reply(f"**Error:**\n`{e}`")
             try:
