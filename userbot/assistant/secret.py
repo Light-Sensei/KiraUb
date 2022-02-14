@@ -20,7 +20,7 @@ async def on_plug_in_callback_query_handler(event):
                 encrypted_tcxt = message["text"]
                 reply_pop_up_alert = encrypted_tcxt
             else:
-                reply_pop_up_alert = "why were you looking at this shit go away and do your own work, idiot"
+                reply_pop_up_alert = "Dekh kya rha h lawde gand dega kya?"
         except KeyError:
             reply_pop_up_alert = "This message no longer exists in catub server"
     else:
